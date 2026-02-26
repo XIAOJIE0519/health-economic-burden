@@ -10,7 +10,7 @@ This study uses data from three publicly available longitudinal surveys. Due to 
 
 **Website**: http://charls.pku.edu.cn/
 
-**Coverage**: 2011-2018 (Waves 1-4)
+**Coverage**: 2011-2018 (Waves 1-4, no 5)
 
 **Access Process**:
 1. Visit the CHARLS website
@@ -36,15 +36,13 @@ This study uses data from three publicly available longitudinal surveys. Due to 
 1. Visit the SHARE website
 2. Register for an account
 3. Complete the data use agreement
-4. Download the harmonized dataset (easySHARE or generated variables)
+4. Download the harmonized dataset
 
 **Required Files**:
 - SHARE harmonized dataset (Waves 1-7)
 - Variable documentation
 
 **Expected Filename**: `share.Rdata`
-
-**Note**: This study uses Waves 1, 2, 3, 4, 5, 6, and 7. Wave 8 is excluded.
 
 ---
 
@@ -95,8 +93,8 @@ The analysis scripts expect the following variables in each dataset. If your dow
 - `age`: Age in years
 - `rabyear`: Birth year
 - `iwy`: Interview year
-- `ragender`: Gender (0=Male, 1=Female)
-- `hrural`: Rural residence (0=Urban, 1=Rural)
+- `ragender`: Gender
+- `hrural`: Rural residence
 - `raeducl`: Education level
 - `smokev`: Ever smoked
 - `hibpe`, `diabe`, `cancre`, `lunge`, `hearte`, `stroke`, `psyche`, `arthre`: Chronic conditions
@@ -226,3 +224,4 @@ For code-related issues:
 ---
 
 **Last Updated**: February 26, 2026
+
